@@ -1,0 +1,129 @@
+#iimg{
+    width: 300px;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    color: rgb(25, 213, 151);
+}
+section{
+    display: flex;
+    justify-content: flex-start;
+}
+.description{
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-around;
+    color:rgb(2, 2, 2);
+}
+.description span{
+    width: 40%;
+    height: 100%;
+    font-size: larger;
+}
+.icones{
+  
+    display: flex;
+   gap: 10px;
+   
+  
+    padding: 40px 20px;
+}
+.icones .patients img{
+   width: 25px;
+}
+.icones .patients p{
+    width: 50%;
+
+}
+.icones .patients select{
+    width: 50%;
+    border: 0;
+    background-color: transparent;
+    
+}
+.icones div{
+display: flex;
+flex-direction: column; border-radius: 10px;
+color: white;
+width: 20%;
+}
+.patients{
+    background-color: #00ccb1;
+}
+.icones .doctors img{
+    width: 25px;
+}
+.icones .doctors p{
+    width: 50%;
+}
+.icones .doctors select{
+    width: 50%;
+    border: 0;
+    background-color: transparent;
+    
+}
+.doctors{
+    background-color: blue;
+}
+.icones .clinics img{
+    width: 25px;
+ }
+ .icones .clinics p{
+     width: 50%;
+ 
+ }
+ .icones .clinics select{
+     width: 50%;
+     border: 0;
+     background-color: transparent;
+    
+ }
+.clinics{
+   background-color: black;
+ }
+ section h3{
+    color: #00ccb1;
+    width: 20%;
+ }
+ section {
+    display: flex;
+    justify-content: space-around;
+ }
+ svg path{
+    fill: gray;
+ }
+ svg path:hover{
+    fill: #00ccb1;
+ }
+ section div{
+    display: flex;
+    gap: 80px;
+    padding: 60px 90px;
+ }
+ .health{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(189, 241, 215);
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+ }
+
+ .cc div{    
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    align-items: center;
+    width: 240px;
+ }
+ .cc div img{
+    width: 25px;
+ }
+ .tt{
+    display: flex;
+    flex-direction: column;
+ }
